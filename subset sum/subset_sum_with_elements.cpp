@@ -2,6 +2,8 @@
 
 using namespace std;
 
+int max(int a, int b) {return a > b ? a : b;}
+
 int subset_sum(int set[], int sum, int n)
 {
 	int t[n+1][sum+1];
